@@ -1,0 +1,102 @@
+[
+  {
+    "title": "Key Features",
+    "links": [
+      {
+        "title": "Easy finding",
+        "link": "/"
+      },
+      {
+        "title": "Completed Description",
+        "link": "/"
+      },
+      {
+        "title": "Good Quality Photo",
+        "link": "/"
+      },
+      {
+        "title": "Open Price",
+        "link": "/"
+      },
+      {
+        "title": "Fast processing",
+        "link": "/"
+      }
+    ]
+  },
+  {
+    "title": "Property",
+    "links": [
+      {
+        "title": "House",
+        "link": "/"
+      },
+      {
+        "title": "Apartment",
+        "link": "/"
+      },
+      {
+        "title": "Villa",
+        "link": "/"
+      },
+      {
+        "title": "Yard",
+        "link": "/"
+      },
+      {
+        "title": "Office",
+        "link": "/"
+      }
+    ]
+  },
+  {
+    "title": "About Us",
+    "links": [
+      {
+        "title": "Purpose",
+        "link": "/"
+      },
+      {
+        "title": "Mission",
+        "link": "/"
+      },
+      {
+        "title": "Value",
+        "link": "/"
+      },
+      {
+        "title": "Team",
+        "link": "/"
+      },
+      {
+        "title": "Contact",
+        "link": "/"
+      }
+    ]
+  },
+  {
+    "title": "Follow Us",
+    "links": [
+      {
+        "title": "Facebook",
+        "link": "/"
+      },
+      {
+        "title": "Instagram",
+        "link": "/"
+      },
+      {
+        "title": "LinkedIn",
+        "link": "/"
+      },
+      {
+        "title": "Twitter",
+        "link": "/"
+      },
+      {
+        "title": "YouTube",
+        "link": "/"
+      }
+    ]
+  }
+]

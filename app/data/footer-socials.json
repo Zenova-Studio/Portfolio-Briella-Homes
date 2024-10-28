@@ -1,0 +1,22 @@
+[
+  {
+    "img_src": "/logo/facebook-circle-logo.svg",
+    "link": "/"
+  },
+  {
+    "img_src": "/logo/linkedin-logo.svg",
+    "link": "/"
+  },
+  {
+    "img_src": "/logo/discord-alt-logo.svg",
+    "link": "/"
+  },
+  {
+    "img_src": "/logo/twitter-x-logo.svg",
+    "link": "/"
+  },
+  {
+    "img_src": "/logo/youtube-logo.svg",
+    "link": "/"
+  }
+]
