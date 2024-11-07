@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function CTA() {
   return (
-    <div className="flex items-center gap-x-16 p-16 max-w-screen-2xl mx-auto">
+    <div id="gallery" className="flex items-center gap-x-16 p-16 max-w-screen-2xl mx-auto">
       <div className="flex-1">
         <img
           src="/cta.png"

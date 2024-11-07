@@ -6,7 +6,7 @@ import ChevronBottomIcon from "./icons/ChevronBottomIcon";
 
 export default function FAQ() {
   return (
-    <div className="p-16 max-w-screen-2xl mx-auto">
+    <div id="qna" className="p-16 max-w-screen-2xl mx-auto">
       <div>
         <h2 className="font-bold text-3xl text-center">
           Your Questions, Answered

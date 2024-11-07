@@ -6,7 +6,7 @@ import HeartIconAlt from "./icons/HeartIconAlt";
 
 export default function Showcase() {
   return (
-    <div className="py-16 max-w-screen-2xl mx-auto">
+    <div id="properties" className="py-16 max-w-screen-2xl mx-auto">
       <h2 className="px-8 font-bold text-3xl text-center">
         Unlock Your Next Home at the Best Price—Check Out Our Listings!
       </h2>

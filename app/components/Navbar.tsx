@@ -19,23 +19,40 @@ export default function Navbar() {
           </Link>
         </li>
         <li>
-          <Link href="/" className="p-3 font-semibold text-smoky-black/70">
+          <Link
+            href="/#properties"
+            className="p-3 font-semibold text-smoky-black/70"
+          >
             Properties
           </Link>
         </li>
         <li>
-          <Link href="/" className="p-3 font-semibold text-smoky-black/70">
-            About Us
+          <Link
+            href="/#gallery"
+            className="p-3 font-semibold text-smoky-black/70"
+          >
+            Gallery
           </Link>
         </li>
         <li>
-          <Link href="/" className="p-3 font-semibold text-smoky-black/70">
-            Contact
+          <Link
+            href="/#pricing"
+            className="p-3 font-semibold text-smoky-black/70"
+          >
+            Pricing
           </Link>
         </li>
         <li>
-          <Link href="/" className="p-3 font-semibold text-smoky-black/70">
-            Blog
+          <Link href="/#qna" className="p-3 font-semibold text-smoky-black/70">
+            QnA
+          </Link>
+        </li>
+        <li>
+          <Link
+            href="/#about"
+            className="p-3 font-semibold text-smoky-black/70"
+          >
+            About
           </Link>
         </li>
       </ul>

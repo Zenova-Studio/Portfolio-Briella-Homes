@@ -5,7 +5,7 @@ import footerSocials from "../data/footer-socials.json";
 
 export default function Footer() {
   return (
-    <footer className="px-16 pb-10 max-w-screen-2xl mx-auto">
+    <footer id="about" className="px-16 pb-10 max-w-screen-2xl mx-auto">
       <hr className="border-philippine-silver" />
       <div className="mt-10 flex">
         {footerLinks.map((f, idx) => (

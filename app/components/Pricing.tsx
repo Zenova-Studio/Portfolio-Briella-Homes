@@ -134,7 +134,7 @@ export default function Pricing() {
   ];
 
   return (
-    <div className="p-16 max-w-screen-2xl mx-auto">
+    <div id="pricing" className="p-16 max-w-screen-2xl mx-auto">
       <div>
         <div>
           <h2 className="font-bold text-3xl text-center">
