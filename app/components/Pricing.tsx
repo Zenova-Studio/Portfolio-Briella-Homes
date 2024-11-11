@@ -13,121 +13,121 @@ export default function Pricing() {
   const pricings = [
     {
       icon: <StarIcon />,
-      title1: "Free Starter Package",
+      title: "Free Starter Package",
       description: "Personal Use Only, No Commercial",
       button: "Start Your Journey Today",
       blueButton: false,
       features: [
         {
           name: "Access to Basic Listings",
-          gray: false,
+          grayOnYearly: false,
         },
         {
           name: "Monthly Newsletter Updates",
-          gray: false,
+          grayOnYearly: false,
         },
         {
           name: "Property Alerts for New Listings",
-          gray: false,
+          grayOnYearly: false,
         },
         {
           name: "User-Friendly Interface",
-          gray: true,
+          grayOnYearly: true,
         },
         {
           name: "Mobile-Friendly Design",
-          gray: false,
+          grayOnYearly: false,
         },
         {
           name: "Support from Our Team",
-          gray: false,
+          grayOnYearly: false,
         },
         {
           name: "Bookmark Your Favorites",
-          gray: true,
+          grayOnYearly: true,
         },
         {
           name: "Easy Contact With Agents",
-          gray: true,
+          grayOnYearly: true,
         },
       ],
     },
     {
       icon: <LightningIconAlt />,
-      title1: "$16",
-      title2: "Pro Plan: $29/Month",
+      title: "$24",
+      titleOnYearly: "$16",
       description: "Ideal for Teams and Investors",
       button: "Join Us Today",
       blueButton: true,
       features: [
         {
           name: "Exclusive Property Listings",
-          gray: false,
+          grayOnYearly: false,
         },
         {
           name: "Dedicated Account Manager",
-          gray: false,
+          grayOnYearly: false,
         },
         {
           name: "Enhanced Search Filters",
-          gray: false,
+          grayOnYearly: false,
         },
         {
           name: "Advanced Market Insights",
-          gray: true,
+          grayOnYearly: true,
         },
         {
           name: "Unlimited Property Alerts",
-          gray: false,
+          grayOnYearly: false,
         },
         {
           name: "Comprehensive Market Reports",
-          gray: true,
+          grayOnYearly: true,
         },
         {
           name: "Access to Virtual Tours",
-          gray: false,
+          grayOnYearly: false,
         },
       ],
     },
     {
       icon: <SparkleIconAlt />,
-      title1: "Custom Solutions Available",
+      title: "Custom Solutions Available",
       description: "Tailored for Corporate Clients",
       button: "Get Started Now",
       blueButton: false,
       features: [
         {
           name: "Team Collaboration Tools",
-          gray: false,
+          grayOnYearly: false,
         },
         {
           name: "Custom Branding Options",
-          gray: false,
+          grayOnYearly: false,
         },
         {
           name: "In-Depth Analytical Reports",
-          gray: false,
+          grayOnYearly: false,
         },
         {
           name: "Dedicated Support Team",
-          gray: false,
+          grayOnYearly: false,
         },
         {
           name: "Flexible Pricing Plans",
-          gray: false,
+          grayOnYearly: false,
         },
         {
           name: "Integration with CRM Systems",
-          gray: false,
+          grayOnYearly: false,
         },
         {
           name: "Secure Data Management",
-          gray: false,
+          grayOnYearly: false,
         },
         {
           name: "Regular Training Sessions",
-          gray: false,
+          grayOnYearly: false,
         },
       ],
     },
@@ -165,12 +165,13 @@ export default function Pricing() {
           <Card
             key={idx}
             icon={p.icon}
-            title1={p.title1}
-            title2={p.title2}
+            title={p.title}
+            titleOnYearly={p.titleOnYearly}
             description={p.description}
             button={p.button}
             blueButton={p.blueButton}
             features={p.features}
+            yearly={isYearly}
           />
         ))}
       </div>
@@ -180,12 +181,13 @@ export default function Pricing() {
 
 interface CardProps {
   icon: JSX.Element;
-  title1: string;
-  title2?: string;
+  title: string;
+  titleOnYearly?: string;
   description: string;
   button: string;
   blueButton: boolean;
-  features: { name: string; gray: boolean }[];
+  features: { name: string; grayOnYearly: boolean }[];
+  yearly: boolean;
 }
 
 function Card(props: CardProps) {
@@ -197,8 +199,11 @@ function Card(props: CardProps) {
         </div>
         <div className="mt-3">
           <div className="flex gap-x-1 items-center">
-            <p className="font-bold text-3xl line-clamp-1">{props.title1}</p>
-            <p className="text-smoky-black/70 line-clamp-1">{props.title2}</p>
+            <p className="font-bold text-3xl line-clamp-1">
+              {props.yearly && props.titleOnYearly
+                ? props.titleOnYearly
+                : props.title}
+            </p>
           </div>
           <p className="mt-3 text-smoky-black/70">{props.description}</p>
         </div>
@@ -220,7 +225,7 @@ function Card(props: CardProps) {
             <div
               key={idx}
               className={`flex gap-x-3 items-center ${
-                f.gray ? "opacity-30" : ""
+                props.yearly && f.grayOnYearly ? "opacity-30" : ""
               }`}
             >
               <div className="h-8 w-8 flex items-center justify-center border border-teal-deer rounded-full">

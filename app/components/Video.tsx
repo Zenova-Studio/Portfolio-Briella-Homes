@@ -12,10 +12,14 @@ export default function Video() {
         </h2>
       </div>
       <div className="mt-16 relative">
-        <img src="/video_placeholder.png" className="w-full" />
-        <div className="absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 bg-white rounded-xl p-4">
-          <PlayIcon />
-        </div>
+        <iframe
+          src="https://www.youtube.com/embed/xUBoFDeEYTc?si=xU5iZk6XTXXyNKoV"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerPolicy="strict-origin-when-cross-origin"
+          allowFullScreen
+          className="w-full aspect-video"
+        />
       </div>
     </div>
   );
