@@ -1,35 +1,57 @@
 [
   {
-    "img_src": "/avatar13.png"
+    "img_src": "/avatar13.png",
+    "title1": "Erina lawson, mother",
+    "title2": "I love how easy it is to compare furniture options. The design is sleek and enjoyable to browse."
   },
   {
-    "img_src": "/avatar10.png"
+    "img_src": "/avatar10.png",
+    "title1": "John M., Interior Designer",
+    "title2": "The site is very user-friendly and makes it easy to find what I need for my clients. Great experience!"
   },
   {
-    "img_src": "/avatar1.png"
+    "img_src": "/avatar1.png",
+    "title1": "Chris B., Business Owner",
+    "title2": "Fast, reliable, and visually appealing. This site makes furniture shopping enjoyable."
   },
   {
-    "img_src": "/avatar11.png"
+    "img_src": "/avatar11.png",
+    "title1": "David P., Real Estate Agent",
+    "title2": "The website provides excellent product details, which helps me recommend options to my clients."
   },
   {
-    "img_src": "/avatar12.png"
+    "img_src": "/avatar12.png",
+    "title1": "Natalie R., Event Planner",
+    "title2": "Perfect for finding stylish, quality furniture. Love the way everything is categorized!"
   },
   {
-    "img_src": "/avatar4.png"
+    "img_src": "/avatar4.png",
+    "title1": "Emily Johnson, Homebuyer Extraordinaire",
+    "title2": "Thrilled with my new home!"
   },
   {
-    "img_src": "/avatar5.png"
+    "img_src": "/avatar5.png",
+    "title1": "Olivia W., Home Decor Enthusiast",
+    "title2": "Super easy to navigate, and I found exactly what I wanted. A fantastic shopping experience!"
   },
   {
-    "img_src": "/avatar6.png"
+    "img_src": "/avatar6.png",
+    "title1": "Tom H., Marketing Consultant",
+    "title2": "Very impressed with the layout and selection. The website made it easy to choose the right furniture."
   },
   {
-    "img_src": "/avatar7.png"
+    "img_src": "/avatar7.png",
+    "title1": "Emma S., Freelance Photographer",
+    "title2": "The visuals are stunning, and the checkout process was super simple. Very happy with my purchase!"
   },
   {
-    "img_src": "/avatar8.png"
+    "img_src": "/avatar8.png",
+    "title1": "Mike L., Architect",
+    "title2": "A well-organized site that offers quality furniture at good prices. Highly recommended!"
   },
   {
-    "img_src": "/avatar9.png"
+    "img_src": "/avatar9.png",
+    "title1": "Lily A., Doughter",
+    "title2": "Great interface and beautiful furniture pieces! I could spend hours exploring the site."
   }
 ]
